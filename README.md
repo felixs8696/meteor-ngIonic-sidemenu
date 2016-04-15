@@ -1,2 +1,2 @@
-# starter
-Cal suspicious activity tracker and emergency alert app
+# meteor-ngIonic-sidemenu
+Starter Template for Meteor-Angular-Ionic Project
