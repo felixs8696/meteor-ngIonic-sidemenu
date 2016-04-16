@@ -8,6 +8,7 @@ Built using the `meteor CLI`
 * Read through this [Angular Meteor WhatsApp Tutorial](http://www.angular-meteor.com/tutorials/whatsapp/meteor/authentication "Angular Meteor WhatsApp Tutorial") to understand what is going on
     * **Note 1**: This is a sidemenu boilerplate, so you will have to be careful with the way the tutorial handles routing, look at [Ionic's Sidemenu Template](https://github.com/driftyco/ionic-starter-sidemenu "Ionic Sidemenu Starter Template") to understand how to manage the ionic sidemenu html and routing
     * **Note 2**: On the tutorial's "Bootstrapping" page, (unless a fix is made) do not follow the package installation instructions for `angular-meteor` because there is currently a conflicting problem between `angular-meteor-data@1.3.10` and `pbastowski:angular-babel@1.3.3`.
+    * **Note 3**: Everything up to (not including) the accounts portion has been finished. You probably want to choose the best way to authenticate for your own apps, so everything from then on is up to you.
 * Edit the code as needed
 
 ### Platforms
