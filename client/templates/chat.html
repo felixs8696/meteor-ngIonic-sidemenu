@@ -17,18 +17,18 @@
 
     <label class="item-input-wrapper">
       <input
-              ng-model="chat.message"
+              ng-model="vm.message"
               dir="auto"
               type="text"
-              on-return="chat.sendMessage(); chat.closeKeyboard()"
-              on-focus="chat.inputUp()"
-              on-blur="chat.inputDown()"/>
+              on-return="vm.sendMessage(); vm.closeKeyboard()"
+              on-focus="vm.inputUp()"
+              on-blur="vm.inputDown()"/>
     </label>
 
-    <span ng-if="chat.message.length > 0">
-      <button ng-click="chat.sendMessage()" class="button button-clear button-positive">Send</button>
+    <span ng-if="vm.message.length > 0">
+      <button ng-click="vm.sendMessage()" class="button button-clear button-positive">Send</button>
     </span>
-    <span ng-if="!chat.message || chat.message.length === 0">
+    <span ng-if="!vm.message || vm.message.length === 0">
       <button class="button button-clear button-icon button-positive icon ion-ios-camera-outline"></button>
       <i class="buttons-seperator icon ion-android-more-vertical"></i>
       <button class="button button-clear button-icon button-positive icon ion-ios-mic-outline"></button>
