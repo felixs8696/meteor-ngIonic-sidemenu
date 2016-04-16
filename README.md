@@ -22,3 +22,4 @@ Built using the `meteor CLI`
 * `angular-meteor`
 * `ionic-scripts`
 * `moment`
+* `angular-moment`
