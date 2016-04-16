@@ -16,6 +16,7 @@ Built using the `meteor CLI`
 * `pbastowski:angular-babel`
 * `dab0mb:ionic-assets`
 * `fourseven:scss`
+* `check`
 
 **Packages Installed (w/ `--save` flag)**
 * `angular`
