@@ -17,6 +17,7 @@ Built using the `meteor CLI`
 * `dab0mb:ionic-assets`
 
 **Packages Installed (w/ `--save` flag)**
-* `angular angular-meteor`
+* `angular`
+* `angular-meteor`
 * `ionic-scripts`
 * `moment`
