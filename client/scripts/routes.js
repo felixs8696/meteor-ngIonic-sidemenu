@@ -38,6 +38,16 @@ export default class RoutesConfig extends Config {
       }
     })
 
+    .state('app.chats', {
+      url: '/chats',
+      views: {
+        'menuContent': {
+          templateUrl: 'client/templates/chats.html',
+          controller: 'ChatsCtrl as vm'
+        }
+      }
+    })
+
     .state('app.single', {
       url: '/playlists/:playlistId',
       views: {
